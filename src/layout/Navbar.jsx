@@ -9,6 +9,7 @@ const navLinks = [
     // {href: "#contact", label: "Contact"},
 ]
 
+
 export const Navbar = () => {
     const [isMobileMenuOpen, setISMobileMenuOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
@@ -22,6 +23,15 @@ export const Navbar = () => {
 
         return() => window.removeEventListener("scroll", handleScroll);
     }, []);
+
+    
+    const scrollToContact = () => {
+    document.getElementById("contact")?.scrollIntoView({
+        behavior: "smooth",
+    });
+
+    setISMobileMenuOpen(false);
+    };
 
     return ( 
         <header className= {`fixed top-0 left-0 right-0 transition-all duration-500 ${
@@ -49,7 +59,9 @@ export const Navbar = () => {
 
                 {/* CTA Button */}
                 <div className="hidden md:block">
-                    <Button>Contact Me</Button>
+                    <Button onClick={scrollToContact}>
+                        Contact Me
+                    </Button>
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -75,7 +87,7 @@ export const Navbar = () => {
                                 {link.label}
                             </a>
                         ))}
-                        <Button onClick={() => setISMobileMenuOpen(false)}>Contact Me</Button>
+                        <Button onClick={scrollToContact}>Contact Me</Button>
                 </div>
             </div>
         )}

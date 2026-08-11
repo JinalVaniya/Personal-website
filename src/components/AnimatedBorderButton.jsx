@@ -3,8 +3,20 @@
 import { Download } from "lucide-react";
 
 export const AnimatedBorderButton = ({children}) => {
+   const handleDownload = () => {
+    const link = document.createElement("a");
+
+    link.href = "/resume/JinalVaniya.pdf";
+    link.download = "JinalVaniya.pdf";
+
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <button
+    type="button"
+    onClick={handleDownload}
       className="relative bg-transparent border border-border 
         text-foreground hover:border-primary/50 transition-all 
         duration-1000 focus:outline-none focus-visible:ring-2 

@@ -31,6 +31,12 @@ const skills = [
     "Jupyter Notebook",
 ];
 
+const scrollToContact = () => {
+  document.getElementById("contact")?.scrollIntoView({
+    behavior: "smooth",
+  });
+};
+
 export const Hero = () => {
     return (
     <section 
@@ -90,7 +96,7 @@ export const Hero = () => {
                     </div> 
                     {/* CTAs */}
                     <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-                        <Button size="lg">
+                        <Button size="lg" onClick={scrollToContact}>
                             Contact Me <ArrowRight className="w-5 h-5" />
                         </Button>
                         <AnimatedBorderButton >
