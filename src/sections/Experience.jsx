@@ -3,16 +3,16 @@ const experiences = [
         period: "Apr 2026 - Present",
         role: "AI Analyst",
         company: "Hotwire Communications",
-        description: "Maintaining and enhancing an internal HR RAG chatbot (Ask Toby) using OpenWebUI and ChromaDB to deliver accurate, context-aware responses. Optimized document retrieval and knowledge management to improve response quality and accuracy. Identified and resolved inconsistencies between AI-driven WiFi automation rules and compliance requirements",
-        technologies: ["Python", "RAG", "Databricks", "Large Language Models(LLMs)", "Artificial Intelligence"],
+        description: "Automated 4K viewership reporting, reducing processing time from over 24 hours to under 5 minutes with 98% accuracy. Maintaining and enhancing an internal HR RAG chatbot (Ask Toby) using OpenWebUI and ChromaDB to deliver accurate, context-aware responses. Optimized document retrieval and knowledge management to improve response quality and accuracy. Improved internal AI chatbots, tested PII filters, and evaluated AI automation use cases for compliance and reliability.",
+        technologies: ["Python", "RAG", "Databricks", "Large Language Models(LLMs)", "Artificial Intelligence", "Databricks", "Claude", "OpenWebUI", "AI Agent"],
         current: true,
     },
     {
         period: "Oct 2025 - Mar 2026",
         role: "Research Assistant",
         company: "Hofstra University",
-        description: "Researched Large Language Models (LLMs), Natural Language Processing (NLP), and AI bias. Conducted experiments and data analysis to evaluate AI model performance and reliability. Collaborated with faculty on AI research projects and presented research findings.",
-        technologies: ["Python", "Langchain", "Large Language Models(LLMs)", "Natural Language Processing (NLP)","Microsoft Excel", "RAG"],
+        description: "Conducted research on demographic bias in LLM-generated advertisements using prompt engineering and NLP techniques. Analyzed 900+ LLM responses across 25+ product categories using Python, NLTK, and statistical analysis to identify biases. Developed LangChain-based LLM pipelines and automated data processing workflows using Python and AWS EC2.",
+        technologies: ["Python", "LangChain", "Large Language Models(LLMs)", "Natural Language Processing (NLP)", "Microsoft Excel", "RAG"],
         current: false,
     },
     {
@@ -25,9 +25,9 @@ const experiences = [
     },
     {
         period: "Feb 2021 - Feb 2022",
-        role: "Intenship - Data Analyst",
+        role: "Internship - Data Analyst",
         company: "Indian Space Research Organization (ISRO)",
-        description: "Validated high-volume telemetry data to ensure system accuracy and reliability. Analyzed telemetry records to identify inconsistencies and support data quality. Supported engineering teams with data validation.",
+        description: "Analyzed and validated satellite telemetry streams at ~100 Mbps, running integrity checks across data channels to maintain data accuracy, reducing invalid records by 25%. Engineered a Flask-based web interface that centralized and simplified system access, reducing user onboarding time and standardizing the training workflow.",
         technologies: ["SQL", "Python", "MySQL", "Microsoft Office"],
         current: false,
     },
@@ -51,7 +51,7 @@ export const Experience = () => {
                         speaks volumes.</span>
                 </h2>
                 <p className="text-muted-foreground animate-fade-in animation-delay-200">
-                    A timeline of my professional growth, from curious begineer to AI Analyst building data-driven solutions.
+                    A timeline of my professional growth, from curious beginner to AI Analyst building data-driven solutions.
                 </p>
             </div>
 
@@ -95,7 +95,7 @@ export const Experience = () => {
                                         {exp.description}</p>
                                     <div
                                     className={`flex flex-wrap gap-2 mt-4 ${
-                                        idx % 2 === 0 ? "md:justify-end" : ""}`}>
+                                        idx % 2 === 0 ? "md:justify-end": ""}`}>
                                         {exp.technologies.map((tech, techIdx) => (
                                         <span
                                         key = {techIdx}
