@@ -26,7 +26,7 @@ export const Footer = () => {
               JV<span className="text-primary">.</span>
             </a>
             <p className="text-sm text-muted-foreground mt-2">
-              © {currentYear} Jinalkumari Vaniya. All rights reserved.
+              © {currentYear} Jinal Vaniya. All rights reserved.
             </p>
           </div>
 
