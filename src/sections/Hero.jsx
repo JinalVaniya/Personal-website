@@ -9,7 +9,7 @@ const skills = [
     "PostgreSQL",
     "MongoDB",
     "Large Language Models (LLMs)",
-    "Langchain",
+    "LangChain",
     "Azure",
     "Machine Learning",
     "Artificial Intelligence",
@@ -26,9 +26,13 @@ const skills = [
     "Generative AI",
     "R",
     "Tableau",
-    "PowerBI",
+    "Power BI",
     "VS Code",
     "Jupyter Notebook",
+    "Databricks",
+    "AI Agent",
+    "OpenWebUI",
+    "Claude",
 ];
 
 const scrollToContact = () => {
@@ -88,9 +92,11 @@ export const Hero = () => {
                             </span>
                         </h1>
                         <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                            Hi, I'm Jinalkumari Vaniya — an AI Analyst at Hotwire Communications and 
+                            Hi, I'm Jinalkumari (Jinal) Vaniya — an AI Analyst at Hotwire Communications and 
                             pursuing a Master's in Data Science at Hofstra University. 
-                            With experience in AI, machine learning, analytics, and automation, 
+                            With ~2 years of experience building intelligent solutions across healthcare, telecom, aerospace, and research. 
+                            Passionate about leveraging Machine Learning, LLMs, and AI automation to solve complex problems, optimize workflows, 
+                            and transform data into meaningful insights. Experience in AI, machine learning, analytics, and automation, 
                             I enjoy building scalable solutions that transform complex data into actionable insights.
                         </p>
                     </div> 
