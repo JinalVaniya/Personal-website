@@ -92,7 +92,7 @@ export const Hero = () => {
                             </span>
                         </h1>
                         <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                            Hi, I'm Jinal Vaniya — an AI Analyst at Hotwire Communications and 
+                            Hi, I'm Jinal Vaniya — an AI Analyst Intern at Hotwire Communications and 
                             pursuing a Master's in Data Science at Hofstra University. 
                             With ~2 years of experience building intelligent solutions across healthcare, telecom, aerospace, and research. 
                             Passionate about leveraging Machine Learning, LLMs, and AI automation to solve complex problems, optimize workflows, 
