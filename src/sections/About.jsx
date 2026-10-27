@@ -14,8 +14,8 @@ const highlights = [
         "Building intelligent models that solve real-world problems using AI and data-driven techniques.",
     },
     {
-        icon:Search,
-        title:"Research & Problem Solving",
+        icon: Search,
+        title: "Research & Problem Solving",
         description:
         "Analyzing complex challenges, experimenting with innovative approaches, and delivering practical solutions.",
     },
@@ -46,24 +46,28 @@ export const About = () => {
                     
                     <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
                         <p>
-                            I'm an AI Analyst (Intern) at Hotwire Communications and a Master's student 
-                            in Data Science at Hofstra University. I enjoy using data, machine learning, 
-                            and AI to solve real-world problems and create meaningful insights. I'm passionate about 
-                            learning new technologies, building intelligent solutions, 
-                            and turning complex data into informed decisions.
+                            I'm an AI Analyst Intern at Hotwire Communications and a Master's student 
+                            in Data Science at Hofstra University, with nearly 2 years of experience 
+                            across AI, data analytics, and research. I'm passionate about using data, 
+                            machine learning, and artificial intelligence to solve real-world problems, 
+                            automate processes, and turn complex information into actionable insights.
                         </p>
                         <p>
-                            I've had the opportunity to work in both industry and research. 
-                            At Hotwire Communications, I contribute to AI automation and reporting initiatives, 
-                            while at Hofstra University I researched large language models, NLP, and AI bias. 
-                            My experience with the Indian Space Research Organisation (ISRO) 
-                            also strengthened my skills in working with large datasets and ensuring data accuracy.
+                            My experience spans both industry and academic research. At Hotwire Communications, 
+                            I work on AI-powered automation, LLM applications, and reporting solutions, including 
+                            automating a reporting workflow that reduced processing time from over 24 hours to 
+                            under 5 minutes. As a Research Assistant at Hofstra University, I explored 
+                            large language models, natural language processing, and demographic bias in 
+                            AI-generated content. Previously, at the Indian Space Research Organisation (ISRO), 
+                            I worked with satellite telemetry data, focusing on data validation, accuracy, 
+                            and process improvement.
                         </p>
                         <p>
-                            I enjoy collaborating with teams, learning new technologies, and building solutions 
-                            that solve real-world problems. Whether it's developing machine learning models, 
-                            creating dashboards, or automating workflows, my goal is to use data and AI 
-                            to help organizations make better decisions.
+                            I enjoy exploring emerging technologies, collaborating with diverse teams, 
+                            and building solutions that make a measurable difference. Whether it's 
+                            developing machine learning models, building intelligent AI applications, 
+                            creating interactive dashboards, or automating workflows, my goal is to 
+                            bridge the gap between data, AI, and real-world impact.
                         </p>
                     </div>
                     
