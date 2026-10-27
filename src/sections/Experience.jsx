@@ -1,7 +1,7 @@
 const experiences = [
     {
         period: "Apr 2026 - Present",
-        role: "AI Analyst",
+        role: "AI Analyst Intern",
         company: "Hotwire Communications",
         description: "Automated 4K viewership reporting, reducing processing time from over 24 hours to under 5 minutes with 98% accuracy. Maintaining and enhancing an internal HR RAG chatbot (Ask Toby) using OpenWebUI and ChromaDB to deliver accurate, context-aware responses. Optimized document retrieval and knowledge management to improve response quality and accuracy. Improved internal AI chatbots, tested PII filters, and evaluated AI automation use cases for compliance and reliability.",
         technologies: ["Python", "RAG", "Databricks", "Large Language Models(LLMs)", "Artificial Intelligence", "Databricks", "Claude", "OpenWebUI", "AI Agent"],
